@@ -1,0 +1,13 @@
+name: Bonjour
+on: workflow_dispatch
+
+jobs:
+  bonjour-date:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Bonjour
+      run: echo "Bonjour Github Actions"
+
+    - name: Date
+      run: date
